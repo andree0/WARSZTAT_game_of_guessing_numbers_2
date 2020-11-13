@@ -21,5 +21,6 @@ while True:
         max = guess
     elif answer == 'too small':
         min = guess
-    else:
+
+    if min == max:
         print('nie oszukuj!')
